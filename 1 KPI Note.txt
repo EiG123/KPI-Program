@@ -1,0 +1,7 @@
+Fault Rate = Site Fault / All Site
+
+Fault Clear = TT ที่ปิดได้ในเวลา / TT ทั้งหมด 
+
+Service Availability by Provice = ((เวลาในเดือนนั้นๆ * Siteทั้งหมด) - downtimeของทุกsite) / เวลาในเดือนนั้นๆ * Siteทั้งหมด 
+
+Service Availability by Site = (เวลาในเดือนนั้นๆ - downtimeของsiteนั้นๆ) / เวลาในเดือนนั้นๆ

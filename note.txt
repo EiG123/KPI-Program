@@ -1,0 +1,40 @@
+Siteทั้งหมดในจังหวัด ฉันก็มีให้นะ ชื่อ จะแบ่งเป็น
+อยู่ใน colum ที่ชื่อ LOCATION ID
+CMI.xlsx คือ Chiang Mai 1, Chiang Mai 2
+CRI.xlsx คือ Chiang Rai
+KPP.xlsx คือ Kamphaeng Phet
+LPG.xlsx คือ Lampang
+LPN.xlsx คือ Lamphun
+MHS.xlsx คือ Mae Hong Son
+NAN.xlsx คือ Nan
+PCB.xlsx คือ Phetchabun
+PCT.xlsx คือ Phichit
+PHE.xlsx คือ Phrae
+PSN.xlsx คือ Phitsanulok
+PYO.xlsx คือ Phayao
+SKT.xlsx คือ Sukhothai
+TAK.xlsx คือ Tak
+UTR.xlsx คือ Uttaradit
+
+
+# path ของไฟล์ TT
+    tt_path = "data/TT Oct.xlsx"
+
+    # path ของไฟล์ site แต่ละจังหวัด
+    site_paths = {
+        "Chiang Mai": "data/site_list/CMI.xlsx",
+        "Chiang Rai": "data/site_list/CRI.xlsx",
+        "Kamphaeng Phet": "data/site_list/KPP.xlsx",
+        "Lampang": "data/site_list/LPG.xlsx",
+        "Lamphun": "data/site_list/LPN.xlsx",
+        "Mae Hong Son": "data/site_list/MHS.xlsx",
+        "Nan": "data/site_list/NAN.xlsx",
+        "Phrae": "data/site_list/PCB.xlsx",
+        "Phetchabun": "data/site_list/PCT.xlsx",
+        "Phrae": "data/site_list/PHE.xlsx",
+        "Phitsanulok": "data/site_list/PSN.xlsx",
+        "Prachinburi": "data/site_list/PYO.xlsx",
+        "Sukhothai": "data/site_list/SKT.xlsx",
+        "Tak": "data/site_list/TAK.xlsx",
+        "Uttaradit": "data/site_list/UTR.xlsx",
+    }
